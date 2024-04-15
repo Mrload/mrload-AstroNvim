@@ -14,10 +14,8 @@ return {
   { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.markdown" },
 
-  -- snappet
-  { import = "astrocommunity.snippet.nvim-snippets" },
-
   --ui
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.recipes.neovide" },
 }
