@@ -18,4 +18,5 @@ return {
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.recipes.neovide" },
+  { import = "astrocommunity.split-and-window.windows-nvim" },
 }
