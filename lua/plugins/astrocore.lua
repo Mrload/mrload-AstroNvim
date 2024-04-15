@@ -32,6 +32,7 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
+        scrolloff = 999, --光标一直处于屏幕中央
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
