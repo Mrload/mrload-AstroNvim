@@ -20,8 +20,7 @@ return {
   --ui
   { import = "astrocommunity.colorscheme.vscode-nvim" }, -- 主题插件
   { import = "astrocommunity.recipes.vscode-icons" },
-  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" }, --状态栏插件
-  -- { import = "astrocommunity.bars-and-lines.bufferline-nvim" }, --Buffer插件
+  { import = "astrocommunity.completion.cmp-cmdline" },
 
   -- neovide支持
   { import = "astrocommunity.recipes.neovide" },
@@ -44,6 +43,12 @@ return {
 
   --remote
   -- { import = "astrocommunity.remote-development.netman-nvim" },
+  -- { import = "astrocommunity.remote-development.distant-nvim" },
+  -- { import = "astrocommunity.remote-development.nvim-sftp-sync" },
+
   -- 错误提示
   { import = "astrocommunity.diagnostics.error-lens-nvim" },
+
+  -- 搜索
+  { import = "astrocommunity.motion.flash-nvim" },
 }
