@@ -17,10 +17,15 @@ return {
 
   -- 类vscode集成
   { import = "astrocommunity.recipes.vscode" },
+
   --ui
   { import = "astrocommunity.colorscheme.vscode-nvim" }, -- 主题插件
   { import = "astrocommunity.recipes.vscode-icons" },
   { import = "astrocommunity.completion.cmp-cmdline" },
+  { import = "astrocommunity.utility.noice-nvim" },
+
+  -- 字幕cmd
+  -- { import = "astrocommunity.comment.mini-comment" },
 
   -- neovide支持
   { import = "astrocommunity.recipes.neovide" },
@@ -30,7 +35,7 @@ return {
 
   -- 仅高亮光标字段
   -- { import = "astrocommunity.color/twilight-nvim" },
-  --
+
   -- 状态栏
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.heirline-clock-statusline" },
@@ -51,4 +56,7 @@ return {
 
   -- 搜索
   { import = "astrocommunity.motion.flash-nvim" },
+
+  --surround
+  { import = "astrocommunity.motion.nvim-surround" },
 }

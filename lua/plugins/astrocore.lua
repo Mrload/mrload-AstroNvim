@@ -33,6 +33,10 @@ return {
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
         scrolloff = 999, --光标一直处于屏幕中央
+        -- tab四个
+        -- tabstop = 4,
+        -- softtabstop = 4,
+        -- shiftwidth = 4,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)

@@ -1,0 +1,10 @@
+{
+  "setup": {
+    "prefix": ["auth"],
+    "body": [
+      "# auth:"
+      "# date:"
+    ],
+    "description": "作者描述"
+  }
+}
