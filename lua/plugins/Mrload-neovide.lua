@@ -1,6 +1,4 @@
-if not vim.g.neovide then
-  return {} -- do nothing if not in a Neovide session
-end
+if not vim.g.neovide then return {} end -- do nothing if not in a Neovide session
 
 local alpha = function(transparency) return string.format("%x", math.floor((255 * transparency) or 0.8)) end
 
@@ -11,7 +9,7 @@ return {
     options = {
       opt = { -- configure vim.opt options
         -- configure font
-        -- guifont = "Source Code Pro:h14",
+        -- guifont = "Agave Nerd Font:h14",
         -- line spacing
         linespace = 0,
       },

@@ -16,7 +16,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
 
   -- 类vscode集成
-  { import = "astrocommunity.recipes.vscode" },
+  -- { import = "astrocommunity.recipes.vscode" },
 
   --ui
   { import = "astrocommunity.colorscheme.vscode-nvim" }, -- 主题插件
