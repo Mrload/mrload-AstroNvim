@@ -52,7 +52,7 @@ return {
   -- { import = "astrocommunity.remote-development.nvim-sftp-sync" },
 
   -- 错误提示
-  { import = "astrocommunity.diagnostics.error-lens-nvim" },
+  -- { import = "astrocommunity.diagnostics.error-lens-nvim" },
 
   -- 搜索
   { import = "astrocommunity.motion.flash-nvim" },
